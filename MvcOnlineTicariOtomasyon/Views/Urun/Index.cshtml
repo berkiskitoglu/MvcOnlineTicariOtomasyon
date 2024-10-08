@@ -1,0 +1,51 @@
+﻿@using MvcOnlineTicariOtomasyon.Models.Siniflar;
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Urun>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+@using(Html.BeginForm("Index","Urun",FormMethod.Get))
+            {
+                <p>
+                    Ürün Adı: @Html.TextBox("p")
+                    
+                    <input type="submit" value="Ara" />
+                </p>
+            }
+<br />
+<table class="table table-bordered">
+    <tr>
+       
+        <th>Ürün</th>
+        <th>Marka</th>
+        <th>Stok</th>
+        <th>Alış Fiyat</th>
+        <th>Satış Fiyat</th>
+        <th>Kategori</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Satış Yap</th>
+    </tr>
+
+    @foreach(var u in Model)
+            {
+        <tr>
+
+            <td>@u.UrunAd</td>
+            <td>@u.Marka</td>
+            <td>@u.Stok</td>
+            <td>@u.AlisFiyati ₺</td>
+            <td>@u.SatisFiyati ₺</td>
+            <td>@u.Kategori.KategoriAd  </td>
+            <td><a href="/Urun/UrunSil/@u.UrunID" class="btn btn-primary">Ürün Sil</a></td>
+            <td><a href="/Urun/UrunGetir/@u.UrunID" class="btn btn-success">Ürün Güncelle</a></td>
+            <td><a href="/Urun/SatisYap/@u.UrunID" class="btn btn-default" style="background-color:#1ecfdb">Satış Yap</a></td>
+        </tr>
+            }
+
+</table>
+@Html.PagedListPager((IPagedList)Model, sayfa => Url.Action("Index", new { sayfa }))
+<a href="/Urun/YeniUrun/" class="btn btn-info">Yeni Ürün Ekle</a>

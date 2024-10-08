@@ -1,0 +1,41 @@
+﻿@using MvcOnlineTicariOtomasyon.Models.Siniflar
+@using PagedList
+@using PagedList.Mvc
+@model PagedList.IPagedList<Personel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-bordered" style="margin-top:20px">
+
+    <tr>
+        <th>Personel</th>
+        <th>Görsel</th>
+        <th>Departman</th>
+        <th>Güncelle</th>
+        <th>Satışlar</th>
+    </tr>
+    @foreach (var k in Model)
+    {
+
+        <tr>
+         
+            <td>@k.PersonelAd @k.PersonelSoyad</td>
+            <td><img src="@k.PersonelGorsel"  style="width:200px; height:150px"/></td>
+            <td>@k.Departmans.DepartmanAd</td>
+            <td> <a href="/Personel/PersonelGetir/@k.PersonelID" class="btn btn-warning">Güncelle</a></td>
+            <td><a href="/Departman/DepartmanPersonelSatis/@k.DepartmanID" class="btn btn-default" style="background-color:lightcoral; color:white;">Detaylar</a></td>
+
+        </tr>
+    }
+</table>
+@Html.PagedListPager((IPagedList)Model, sayfa => Url.Action("Index", new { sayfa }), new PagedListRenderOptions
+{
+    LiElementClasses = new List<string>
+    {"page-link"}
+})
+<a href="/Personel/PersonelEkle/" class="btn btn-info">Personel Ekle</a>
+
+
