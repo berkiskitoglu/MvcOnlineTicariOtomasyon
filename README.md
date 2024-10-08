@@ -46,4 +46,38 @@ Bu özellikler, projenin hem işlevselliğini artırmakta hem de kullanıcı den
 📈 DOM manipülasyonu ve olay yönetimi gibi işlevleri basitleştirir.
 <br>
 📱 Farklı cihazlarda uyumlu ve modern bir görünüm sağlamak için önceden tanımlanmış bileşenler sunar.
+# Model Diyagramı
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/0.png)
+# Cariler
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/1.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/2.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/3.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/5.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/6.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/7.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/8.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/9.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/10.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/11.png)
+# Personel
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/4.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/12.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/13.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/14.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/15.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/16.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/17.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/18.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/19.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/20.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/21.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/22.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/23.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/24.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/25.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/26.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/27.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/28.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/29.png)
+![image](https://github.com/berkiskitoglu/MvcOnlineTicariOtomasyon/blob/master/image/13.png)
 
